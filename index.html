@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    
+    <title>SaKaYe</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/commonStyle.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="js/script.js" defer="defer"></script>
+    <!-- js api -->
+    <script type="text/javascript" src="http://api.map.baidu.com/getscript?v=3.0&ak=4P0at4AEWxiz0wzGMI86WmB9f7HFywdk">
+    </script>
+    <!-- jquery && jquery.lazyload -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
+    <!-- Start of Async Drift Code -->
+<script>
+	"use strict";
+	
+	!function() {
+	  var t = window.driftt = window.drift = window.driftt || [];
+	  if (!t.init) {
+		if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+		t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+		t.factory = function(e) {
+		  return function() {
+			var n = Array.prototype.slice.call(arguments);
+			return n.unshift(e), t.push(n), t;
+		  };
+		}, t.methods.forEach(function(e) {
+		  t[e] = t.factory(e);
+		}), t.load = function(t) {
+		  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+		  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+		  var i = document.getElementsByTagName("script")[0];
+		  i.parentNode.insertBefore(o, i);
+		};
+	  }
+	}();
+	drift.SNIPPET_VERSION = '0.3.1';
+	drift.load('c3aurgtk94ca');
+	</script>
+	<!-- End of Async Drift Code -->
+</head>
+
+<body>
+    <!-- body start -->
+    <header>
+        <div class="nav">
+            <div class="nav-article">
+                <div class="logo-image"><img src="images/logo.jpg"></div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-hover"><a><span>Home</span></a></li>
+                        <li><a><span>About Us</span></a></li>
+                        <li><a><span>Video</span></a></li>
+                        <li><a><span>Hotel</span></a></li>
+                        <li><a><span>Service</span></a></li>
+                        <li><a><span>News</span></a></li>
+                        <li><a><span>Contact</span></a></li>
+                        <li>
+                            <span><a>English</a><a></a></span>
+                            
+                        </li>
+                        <li>
+                            <input type="text"><i class="fa fa-search" aria-hidden="true"></i>
+                            
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="rotation-chart">
+            <div class="images">
+                <img src="images/Rotation chart1.jpg">
+                <img src="images/Rotation chart2.jpg">
+                <img src="images/Rotation chart3.jpg">
+            </div>
+            <div class="container-footer">
+                <div class="rotation-footer">
+                    <div class="btns">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="time">
+                        <span>19</span>/
+                        <span>12</span>/
+                        <span>05</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <div class="about-us">
+            <div class="about">
+                <ul>
+                    <li class="big-title">
+                        <h2><span>A</span>bout Us</h2>
+                    </li>
+                    <li>In the quality of lift Leading commercial quality</li>
+                  
+                </ul>
+                <div class="us">
+                    <img class="lazy" data-original="images/timg1.jpg">
+                    <ul>
+                       
+                        <li>Cloud hotel is a great pioneer art representative's landmark is the</li>
+                        <li>pertect combination of avant-garde art with humanistic</li>
+                        <li>care and design the sublimation of civillzation with hotel fusion model</li>
+                        <li><button>More Info</button></li>
+                    </ul>
+                </div>
+                <div class="plilosophy">
+                    <ul>
+                        <li class="semlly-title">Company philosophy</li>
+                       
+                        <li>Creative fashion and classic, simple and luxurious and natural freehand brushwork in
+                            tranditional Chines ecostiy eckectic design concept Look forward We by the wision of
+                            globzlization intermationalservice atan dard Create a better lift experience and customer
+                            value.</li>
+                        <li><button>More Info</button></li>
+                    </ul>
+                    <img class="lazy" data-original="images/timg2.png">
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <video src="video/sakaye.mp4" controls></video>
+        </div>
+        <div class="hotel">
+            <div class="ocean-room">
+                <img class="lazy" data-original="images/timg3.jpg">
+                <ul>
+                    <li class="big-title">
+                        <h2><span>H</span>otel</h2>
+                    </li>
+                    <li class="italic">Meetings and Events:</li>
+                    <li>Planning a business conference, corporate retreat, or a special celebration? Our state-of-the-art meeting and event facilities are equipped to cater to your every need. From intimate gatherings to large-scale events, our experienced event planners will ensure every detail is taken care of, leaving you free to focus on the occasion.
+
+                    </li>
+                    
+                    <li>Top Marine presidetial suites</li>
+                </ul>
+            </div>
+            <div class="classic-room">
+                <ul>
+                    <li>
+                        <h3><span>C</span>lassic beauty</h3>
+                    </li>
+                    <li>Recharge and unwind in our premium leisure facilities. Take a dip in our sparkling pool, work out at our fully-equipped fitness center, or indulge in a rejuvenating spa treatment to melt away the stress of the day. For the adventurous souls, our concierge can arrange exciting excursions and activities to explore the local attractions.</li>
+                </ul>
+                <img class="lazy" data-original="images/timg4.jpg">
+            </div>
+            <div class="simple-room">
+                <ul>
+                    <li>
+                        <h3><span>S</span>imple Luxury</h3>
+                    </li>
+                   
+                    <li>Charactenstic style luxury suites</li>
+                </ul>
+                <div class="simple-img class=" lazy"">
+                    <img class="lazy" data-original="images/timg5.jpg">
+                    <img class="lazy" data-original="images/timg6.jpg">
+                    <div class="feel">
+                        <ul>
+                           
+                            <li>Amoruous feelings of southeast</li>
+                            <li>Asia charactertic</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <ul>
+                <li class="big-title">
+                    <h2><span>S</span>ervice</h2>
+                </li>
+               
+            </ul>
+            <div class="features">
+                <div class="features-img-container">
+                    <div class="features-img">
+                        <img class="lazy" data-original="images/Features/p1.jpg">
+                        <img class="lazy" data-original="images/Features/p2.jpg">
+                        <img class="lazy" data-original="images/Features/p3.jpg">
+                        <img class="lazy" data-original="images/Features/p4.jpg">
+                    </div>
+                    <div class="describe">
+                        <ul>
+                            <ul>
+                                
+                                <li>Theme : the Manhattan restaurant The mayan bell restaurante in southeast Asis Sky
+                                    garden leisure restaurant,here</li>
+                            </ul>
+                            <ul>
+                               
+                                <li>Theme : the Manhattan restaurant The mayan bell restaurante in southeast Asis Sky
+                                    garden leisure restaurant,here</li>
+                            </ul>
+                            <ul>
+                                
+                                <li>Theme : the Manhattan restaurant The mayan bell restaurante in southeast Asis Sky
+                                    garden leisure restaurant,here</li>
+                            </ul>
+                            <ul>
+                               
+                                <li>Theme : the Manhattan restaurant The mayan bell restaurante in southeast Asis Sky
+                                    garden leisure restaurant,here</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="features-nav">
+                    <h3><span>F</span>eatures</h3>
+                    <div class="horizontal-line"></div>
+                    <ul>
+                        <li>
+                            <div class="features-nav-li">
+                                <img src="images/Features/p5.jpg">
+                                <ul>
+                                   
+                                    <li>Main Restaurant</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="features-nav-li">
+                                <img src="images/Features/p6.jpg">
+                                <ul>
+                                   
+                                    <li>Compartments</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="features-nav-li">
+                                <img src="images/Features/p7.jpg">
+                                <ul>
+                                    
+                                    <li>Banquet center</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="features-nav-li">
+                                <img src="images/Features/p8.jpg">
+                                <ul>
+                                   
+                                    <li>Conference Hall</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><button>More Info</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="theme">
+            <div class="theme-one">
+                <img class="lazy" data-original="images/Theme/timg1.jpg">
+                <img class="lazy" data-original="images/Theme/timg2.jpg">
+            </div>
+            <div class="theme-two">
+                <div class="theme-textone">
+                    <ul>
+                        <li>Is not only a</li>
+                        <li>Luxurious palace</li>
+                       
+                    </ul>
+                </div>
+                <div class="theme-texttwo">
+                    <ul>
+                        <li>The international</li>
+                        <li>Standard of brilliant words</li>
+                       
+                    </ul>
+                </div>
+                <img class="lazy" data-original="images/Theme/timg4.jpg">
+            </div>
+            <div class="theme-three">
+                <img class="lazy" data-original="images/Theme/timg3.jpg">
+                <div class="theme-textthree">
+                    <ul>
+                        <li>The internatonal</li>
+                        <li>Honor is a classic</li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="theme-four">
+                <img class="lazy" data-original="images/Theme/timg5.jpg">
+            </div>
+
+            <div class="theme-title">Theme</div>
+            <div class="more"><button>More Iofo</button></div>
+
+        </div>
+        <div class="news">
+            <ul>
+                <li class="big-title">
+                    <h2><span>I</span>ndustry News</h2>
+                </li>
+                
+            </ul>
+            <div class="industry-news">
+                <div class="news-list">
+                    <div class="news-content">
+                        <ul>
+                            <li>01</li>
+                            <li>2023.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li>82%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>02</li>
+                            <li>2013.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>03</li>
+                            <li>2023.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>04</li>
+                            <li>2014.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-list">
+                    <div class="news-content">
+                        <ul>
+                            <li>05</li>
+                            <li>2022.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li>82%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>06</li>
+                            <li>2022.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>07</li>
+                            <li>2023.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>08</li>
+                            <li>2023.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-list">
+                    <div class="news-content">
+                        <ul>
+                            <li>09</li>
+                            <li>2023.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>10</li>
+                            <li>2023.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>11</li>
+                            <li>2016.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE集团有限公司</li>
+                            <li> 82%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>12</li>
+                            <li>2016.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE集团有限公司</li>
+                            <li>82%</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-list">
+                    <div class="news-content">
+                        <ul>
+                            <li>09</li>
+                            <li>2022.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAY</li>
+                            <li> 82%</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>03</li>
+                            <li>2022.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li>82%</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>12</li>
+                            <li>2016.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE集团有限公司</li>
+                            <li>82%</li>
+                          
+                        </ul>
+                    </div>
+                    <div class="news-content">
+                        <ul>
+                            <li>05</li>
+                            <li>2016.12</li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                        <ul>
+                            <li>SAKAYE</li>
+                            <li> 82%</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-btn">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+        </div>
+    </article>
+
+    <aside>
+        <div class="fast-nav">
+            <ul>
+                <li class="prev"><span></span></li>
+                <li class="next"><span></span></li>
+            </ul>
+        </div>
+        <div class="form">
+            <ul>
+                <li class="big-title">
+                    <h2><span>C</span>ontact <span>U</span>s</h2>
+                </li>
+                
+            </ul>
+            <div class="form-info">
+                <ul>
+                    <li>
+                        <div id="container"><img class="lazy" class="img class=" lazy""
+                                data-original="images/img class="lazy" map.png"></div>
+                    </li>
+                    <li><span>India:</span> India U.P. BHADOHI</li>
+                    <li><span>Number:</span> 8299890048</li>
+                    <li><span>Mail:</span> JALAJt41@gmail.com</li>
+                </ul>
+                <form action="" method="post">
+                    <ul>
+                        <li><span>NAME:</span></li>
+                        <li><input type="text" name="username" placeholder="ENTER THE NAME" required="required"
+                                autocomplete="off"></li>
+                        <li><span>CONTRACT NO:</span></li>
+                        <li><input type="tel" name="tel" placeholder="ENTER CONTRACT NAME" required="required" autocomplete="off">
+                        </li>
+                        <li><span>MESSAGE:</span></li>
+                        <li><textarea placeholder="MESSAGE" required="required"></textarea></li>
+                        <li><input type="submit" value="SUBMIT"></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="footer-container">
+            <h2>SAKAYE</h2>
+            <ul>
+                <li>Cooperation</li>
+               
+                <li>NO: 8299890048</li>
+                <li>MAIL: JALAJT41@GMAIL.COM</li>
+            </ul>
+            <ul>
+                <li>Address</li>
+                
+                <li><a href="">HOME</a></li>
+                <li><a href="">ROOM</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">UI</a></li>
+                <li><a href="">BOOKING</a></li>
+            </ul>
+            <ul>
+                <li>Company</li>
+               
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>copyright @GAURAV HOTEL BHADOHI</p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn"
+        });
+    });
+</script>
+
+</html>
